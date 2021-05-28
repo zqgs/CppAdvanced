@@ -1,0 +1,3 @@
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/cmake-build-debug/CMakeFiles/TestClion_git.dir
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/cmake-build-debug/CMakeFiles/rebuild_cache.dir
