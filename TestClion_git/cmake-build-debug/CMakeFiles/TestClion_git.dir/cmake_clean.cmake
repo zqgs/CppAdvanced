@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/TestClion_git.dir/main.cpp.obj"
-  "TestClion_git.exe"
-  "TestClion_git.exe.manifest"
+  "CMakeFiles/TestClion_git.dir/main.cpp.o"
+  "TestClion_git"
   "TestClion_git.pdb"
-  "libTestClion_git.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -8,82 +8,82 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/cmake-build-debug"/>
+				<Option working_dir="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/TestClion_git/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="TestClion_git">
-				<Option output="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/cmake-build-debug/TestClion_git.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 TestClion_git"/>
-					<CompileFile command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="TestClion_git/fast">
-				<Option output="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/cmake-build-debug/TestClion_git.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 TestClion_git/fast"/>
-					<CompileFile command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/cmake-build-debug"/>
+				<Option working_dir="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/TestClion_git/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/TestClion_git/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestClion_git">
+				<Option output="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/TestClion_git/cmake-build-debug/TestClion_git" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/TestClion_git/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 TestClion_git"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestClion_git/fast">
+				<Option output="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/TestClion_git/cmake-build-debug/TestClion_git" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/TestClion_git/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 TestClion_git/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/TestClion_git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/main.cpp">
+		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/TestClion_git/main.cpp">
 			<Option target="TestClion_git"/>
 		</Unit>
-		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/TestClion_git/CMakeLists.txt">
+		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/TestClion_git/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
