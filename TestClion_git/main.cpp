@@ -6,5 +6,7 @@ int main() {
     std::cout<<"22222222222222"<<std::endl;
     std::cout<<"she hui yao"<<std::endl;
     std::cout<<"i am from MacOS"<<std::endl;
+    using namespace std;
+    cout<<"i am from windows\n";
     return 0;
 }
