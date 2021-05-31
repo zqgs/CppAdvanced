@@ -62,7 +62,21 @@ int BinSerch(std::vector<Item<Type>> datalist,int length,int k)
     return 0;//未找到
 }
 
-//Example 设计算法
-
+//Example 设计算法:原始数组0 1 2 3 4  右移两位后 3 4 0 1 2
+template <class Type>
+void Design(std::vector<Item<Type>> &dateList, int ArrayLength,int k)
+{
+    Type ArrayTemp[ArrayLength];
+    //数组长度
+    int Length =ArrayLength;
+    for (int i = 0; i < Length; ++i) {
+        //计算当前i+k后的地址
+        int rem = (i+k)%Length;
+        ArrayTemp[rem] = dateList[i].getKey();
+    }
+    dateList.clear();
+    for (int i = 0; i < Length; ++i)
+        dateList.push_back(ArrayTemp[i]);
+}
 
 #endif //ABSTRACTDATATYPE_ALGORITHM_INTRODUCTION_HPP

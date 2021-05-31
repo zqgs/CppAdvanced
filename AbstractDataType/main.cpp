@@ -22,6 +22,17 @@ int main() {
     timeInterval = std::chrono::duration_cast< std::chrono::milliseconds>(endTime - beginTime);
     std::cout << "BinSerch:" << timeInterval.count() << "ms\n";
 
+    beginTime =  std::chrono::high_resolution_clock::now();
+    Design(iVec,iVec.size(),2);
+
+    endTime =  std::chrono::high_resolution_clock::now();
+    timeInterval = std::chrono::duration_cast< std::chrono::milliseconds>(endTime - beginTime);
+    std::cout << "Design:" << timeInterval.count() << "ms\n";
+
+    for (int i = 0; i < iVec.size(); ++i)
+        std::cout<<iVec[i].getKey()<<" ";
+    std::cout<<"\n";
+
     //std::cout << "BinSerch:"<< BinSerch(iVec,iVec.size(),9) << std::endl;
     return 0;
 }
