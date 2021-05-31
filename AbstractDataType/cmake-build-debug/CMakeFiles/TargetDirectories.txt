@@ -1,3 +1,3 @@
-/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/cmake-build-debug/CMakeFiles/AbstractDataType.dir
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/cmake-build-debug/CMakeFiles/AbstractDataType.dir
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/cmake-build-debug/CMakeFiles/rebuild_cache.dir

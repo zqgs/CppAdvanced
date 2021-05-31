@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 3.19)
+cmake_minimum_required(VERSION 3.17.3)
 project(AbstractDataType)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(AbstractDataType main.cpp)
+add_executable(AbstractDataType main.cpp ADT.hpp Algorithm_Introduction.hpp)

@@ -1,25 +1,27 @@
 #include <iostream>
+#include <chrono>
+#include "Algorithm_Introduction.hpp"
 
-/*
- 数据结构及其算法学习--抽象数据类型ADT
- 数据结构分为：逻辑、运算、存储(抽象数据类型忽略数据的存储)
- 1.逻辑结构:数据对象及其关系
- 2.运算:数据操作
-*/
 
-//逻辑结构的体现
-template <class T>
-class _Stack{
-public:
-    bool pop(T &Item);//出栈
-    bool push(const T& Item);//入栈
-    //...等等操作
-    void clear();
-};
-//运算则是对数据进行操作-->也就是函数的实现
 
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    std::vector<Item<int>> iVec={0,1,3,5,7,9};
+
+
+    std::chrono::high_resolution_clock::time_point beginTime =  std::chrono::high_resolution_clock::now();
+    SeqSerch(iVec,iVec.size(),8);//穷举法
+    std::chrono::high_resolution_clock::time_point endTime =  std::chrono::high_resolution_clock::now();
+    std::chrono::milliseconds timeInterval = std::chrono::duration_cast< std::chrono::milliseconds>(endTime - beginTime);
+    std::cout << "SeqSerch:" << timeInterval.count() << "ms\n";
+
+
+    beginTime =  std::chrono::high_resolution_clock::now();
+    BinSerch(iVec,iVec.size(),8);//二分法
+    endTime =  std::chrono::high_resolution_clock::now();
+    timeInterval = std::chrono::duration_cast< std::chrono::milliseconds>(endTime - beginTime);
+    std::cout << "BinSerch:" << timeInterval.count() << "ms\n";
+
+    //std::cout << "BinSerch:"<< BinSerch(iVec,iVec.size(),9) << std::endl;
     return 0;
 }

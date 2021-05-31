@@ -1,1 +1,3 @@
-/Library/Developer/CommandLineTools/usr/bin/c++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/AbstractDataType.dir/main.cpp.o -o AbstractDataType 
+"D:\Program Files\JetBrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\AbstractDataType.dir/objects.a
+D:\CommonCode\MinGW\mingw64\bin\ar.exe cr CMakeFiles\AbstractDataType.dir/objects.a @CMakeFiles\AbstractDataType.dir\objects1.rsp
+D:\CommonCode\MinGW\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\AbstractDataType.dir/objects.a -Wl,--no-whole-archive  -o AbstractDataType.exe -Wl,--out-implib,libAbstractDataType.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\AbstractDataType.dir\linklibs.rsp
