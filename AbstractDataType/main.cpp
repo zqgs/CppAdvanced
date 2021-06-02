@@ -1,11 +1,12 @@
 #include <iostream>
 #include <chrono>
 #include "Algorithm_Introduction.hpp"
-
+#include "Sequence_Table.hpp"
 
 
 
 int main() {
+    /*
     std::vector<Item<int>> iVec={0,1,3,5,7,9};
 
 
@@ -34,5 +35,21 @@ int main() {
     std::cout<<"\n";
 
     //std::cout << "BinSerch:"<< BinSerch(iVec,iVec.size(),9) << std::endl;
+
+    std::clog<< "BinSerch:"<< BinSerch(iVec,iVec.size(),9) << std::endl;
+     */
+    arrList<int> a(10);
+    a._Insert(0,5);
+    a._Insert(1,2);
+
+    for(int i=0;i<10;i++)
+        std::cout<<a[i]<<" ";
+    std::cout<<"\n";
+
+
+    a._Delete(0);
+    for(int i=0;i<10;i++)
+        std::cout<<a[i]<<" ";
+    std::cout<<"\n";
     return 0;
 }
