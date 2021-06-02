@@ -3,4 +3,4 @@ project(AbstractDataType)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(AbstractDataType main.cpp ADT.hpp Algorithm_Introduction.hpp Sequence_Table.hpp Linear_TableTemplate.h)
+add_executable(AbstractDataType main.cpp ADT.hpp Algorithm_Introduction.hpp Sequence_Table.hpp Linear_TableTemplate.h Linked_List.hpp)

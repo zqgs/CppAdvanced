@@ -21,4 +21,8 @@ public:
     bool _setValue(const int p,const T value);//把value修改位置p的元素值
 };
 
+
+
+
+
 #endif //ABSTRACTDATATYPE_LINEAR_TABLETEMPLATE_H

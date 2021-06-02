@@ -89,6 +89,9 @@
 		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/Linear_TableTemplate.h">
 			<Option target="AbstractDataType"/>
 		</Unit>
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/Linked_List.hpp">
+			<Option target="AbstractDataType"/>
+		</Unit>
 		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/Sequence_Table.hpp">
 			<Option target="AbstractDataType"/>
 		</Unit>
