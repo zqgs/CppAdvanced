@@ -17,7 +17,7 @@ public:
     virtual bool _Delete(const int p){return true;};//删除位置p上的元素 表长度减1
 
     bool _GetPos(int &p,T &value);//查找值为value元素并返回其位置
-    bool _GetValue(const int p,T &value);//把位置p元素值返回到变量value
+    virtual bool _GetValue(const int p,T &value) {return true;} //把位置p元素值返回到变量value
     bool _setValue(const int p,const T value);//把value修改位置p的元素值
 };
 

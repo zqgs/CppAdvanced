@@ -2,7 +2,7 @@
 #include <chrono>
 #include "Algorithm_Introduction.hpp"
 #include "Sequence_Table.hpp"
-
+#include "Linked_List.hpp"
 
 
 int main() {
@@ -38,6 +38,7 @@ int main() {
 
     std::clog<< "BinSerch:"<< BinSerch(iVec,iVec.size(),9) << std::endl;
      */
+    /*
     arrList<int> a(10);
     a._Insert(0,5);
     a._Insert(1,2);
@@ -51,5 +52,14 @@ int main() {
     for(int i=0;i<10;i++)
         std::cout<<a[i]<<" ";
     std::cout<<"\n";
+     */
+    linkList<int> *_list = new linkList<int>(3);
+    _list->_Insert(1,5);
+    _list->_Insert(2,2);
+    int a;
+    _list->_GetValue(1,a);
+    std::cout<<a<<std::endl;
+    _list->_GetValue(2,a);
+    std::cout<<a<<std::endl;
     return 0;
 }

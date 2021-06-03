@@ -3,6 +3,7 @@
 
 CMakeFiles/AbstractDataType.dir/main.cpp.obj: ../Algorithm_Introduction.hpp
 CMakeFiles/AbstractDataType.dir/main.cpp.obj: ../Linear_TableTemplate.h
+CMakeFiles/AbstractDataType.dir/main.cpp.obj: ../Linked_List.hpp
 CMakeFiles/AbstractDataType.dir/main.cpp.obj: ../Sequence_Table.hpp
 CMakeFiles/AbstractDataType.dir/main.cpp.obj: ../main.cpp
 
