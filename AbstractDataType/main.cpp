@@ -1,9 +1,9 @@
 #include <iostream>
 #include <chrono>
 #include "Algorithm_Introduction.hpp"
-#include "Sequence_Table.hpp"
+#include "List_Sequence.hpp"
 //#include "SinglyLinked_List.hpp"
-#include "DoubleLinked_List.hpp"
+#include "List_DoubleLinked.hpp"
 
 int main() {
     /*

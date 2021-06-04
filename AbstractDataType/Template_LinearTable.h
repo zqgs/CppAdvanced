@@ -23,6 +23,16 @@ public:
 
 
 
-
+//栈的模板类  栈:一种受到规则限制的线性表   意味着可以实现顺序栈 与 链表栈
+template <class T>
+class _Stack{
+public:
+    void clear(); //变未空栈
+    bool push(const T Item);//Item入栈，成功返回真，否则返回假
+    bool pop(T &Item);//返回栈顶内容并弹出，成功为真，否则假
+    bool top(T & Item);//返回栈顶但不弹出，成功为真，否则假
+    bool isEmpty();//若栈已空返回真
+    bool isFull();//若栈已满返回真
+};
 
 #endif //ABSTRACTDATATYPE_LINEAR_TABLETEMPLATE_H

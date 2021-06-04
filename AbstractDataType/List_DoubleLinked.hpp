@@ -5,7 +5,7 @@
 #ifndef ABSTRACTDATATYPE_DOUBLELINKED_LIST_HPP
 #define ABSTRACTDATATYPE_DOUBLELINKED_LIST_HPP
 #include <iostream>
-#include "Linear_TableTemplate.h"
+#include "Template_LinearTable.h"
 
 //双链表节点定义
 template <class T>

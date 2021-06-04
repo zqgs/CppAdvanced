@@ -5,7 +5,7 @@
 #ifndef ABSTRACTDATATYPE_SEQUENCE_TABLE_HPP
 #define ABSTRACTDATATYPE_SEQUENCE_TABLE_HPP
 
-#include "Linear_TableTemplate.h"
+#include "Template_LinearTable.h"
 //顺序表结构定义 - 继承线性表
 template <class T>
 class arrList: public _List<T>{

@@ -4,7 +4,7 @@
 
 #ifndef ABSTRACTDATATYPE_LINKED_LIST_HPP
 #define ABSTRACTDATATYPE_LINKED_LIST_HPP
-#include "Linear_TableTemplate.h"
+#include "Template_LinearTable.h"
 
 #include <iostream>
 //节点
