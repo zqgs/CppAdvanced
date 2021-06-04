@@ -2,8 +2,8 @@
 #include <chrono>
 #include "Algorithm_Introduction.hpp"
 #include "Sequence_Table.hpp"
-#include "SinglyLinked_List.hpp"
-
+//#include "SinglyLinked_List.hpp"
+#include "DoubleLinked_List.hpp"
 
 int main() {
     /*
@@ -53,6 +53,7 @@ int main() {
         std::cout<<a[i]<<" ";
     std::cout<<"\n";
      */
+    /*
     linkList<int> *_list = new linkList<int>(3);
     _list->_Insert(1,5);
     _list->_Insert(2,2);
@@ -61,5 +62,20 @@ int main() {
     std::cout<<a<<std::endl;
     _list->_GetValue(2,a);
     std::cout<<a<<std::endl;
+     delete _list;
+     */
+    DoubleLinkList<int> *DList = new DoubleLinkList<int>();
+    DList->_Insert(1,3);
+    DList->_Insert(2,4);
+    DList->_Insert(3,5);
+    DList->_Insert(4,6);
+    int b;
+    DList->_GetValue(3,b);
+    std::cout<<b<<std::endl;
+
+    DList->_Delete(3);
+
+    DList->_GetValue(3,b);
+    std::cout<<b<<std::endl;
     return 0;
 }

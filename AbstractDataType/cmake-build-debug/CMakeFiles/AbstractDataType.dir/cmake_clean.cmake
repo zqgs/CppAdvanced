@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "AbstractDataType"
+  "AbstractDataType.exe"
+  "AbstractDataType.exe.manifest"
   "AbstractDataType.pdb"
-  "CMakeFiles/AbstractDataType.dir/main.cpp.o"
+  "CMakeFiles/AbstractDataType.dir/main.cpp.obj"
+  "libAbstractDataType.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
