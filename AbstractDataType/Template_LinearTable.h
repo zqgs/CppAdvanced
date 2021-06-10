@@ -27,12 +27,48 @@ public:
 template <class T>
 class _Stack{
 public:
-    void clear(); //变未空栈
-    bool push(const T Item);//Item入栈，成功返回真，否则返回假
-    bool pop(T &Item);//返回栈顶内容并弹出，成功为真，否则假
+    void clear(); //变为空栈
+    virtual bool push(const T Item){return true;}//Item入栈，成功返回真，否则返回假
+    virtual bool pop(T &Item){return true;}//返回栈顶内容并弹出，成功为真，否则假
     bool top(T & Item);//返回栈顶但不弹出，成功为真，否则假
     bool isEmpty();//若栈已空返回真
     bool isFull();//若栈已满返回真
 };
+
+
+//单链模板类
+template <class T>
+class Link{
+public:
+    T data;
+    Link<T> * next;
+    Link(const T info, Link<T>* nextPoint = nullptr){
+        data = info;
+        next = nextPoint;
+    }
+    Link(Link<T>* nextPoint)
+    {
+        next = nextPoint;
+    }
+};
+
+//双链表模板类
+template <class T>
+class dLink{
+public:
+    T data;
+    dLink<T> *prev;
+    dLink<T> *next;
+    dLink(const T info,dLink<T> *PrevPoint =nullptr,dLink<T> *nextPoint = nullptr){
+        data = info;
+        prev = PrevPoint;
+        next = nextPoint;
+    }
+    dLink(dLink<T> * PrevPoint = nullptr,dLink<T> *nextPoint = nullptr){
+        prev = PrevPoint;
+        next = nextPoint;
+    }
+};
+
 
 #endif //ABSTRACTDATATYPE_LINEAR_TABLETEMPLATE_H

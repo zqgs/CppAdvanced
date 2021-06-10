@@ -22,6 +22,18 @@ D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/List_Sequence.hpp
 Template_LinearTable.h
 D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/Template_LinearTable.h
 
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/Stack_Array_Based.hpp
+Template_LinearTable.h
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/Template_LinearTable.h
+iostream
+-
+
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/Stack_Link_Based.hpp
+Template_LinearTable.h
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/Template_LinearTable.h
+iostream
+-
+
 D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/Template_LinearTable.h
 
 D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/main.cpp
@@ -35,4 +47,8 @@ List_Sequence.hpp
 D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/List_Sequence.hpp
 List_DoubleLinked.hpp
 D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/List_DoubleLinked.hpp
+Stack_Array_Based.hpp
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/Stack_Array_Based.hpp
+Stack_Link_Based.hpp
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/Stack_Link_Based.hpp
 

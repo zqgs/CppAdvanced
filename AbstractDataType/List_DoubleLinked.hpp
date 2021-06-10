@@ -7,34 +7,18 @@
 #include <iostream>
 #include "Template_LinearTable.h"
 
-//双链表节点定义
-template <class T>
-class Link{
-public:
-    T data;
-    Link<T> *prev;
-    Link<T> *next;
-    Link(const T info,Link<T> *PrevPoint =nullptr,Link<T> *nextPoint = nullptr){
-        data = info;
-        prev = PrevPoint;
-        next = nextPoint;
-    }
-    Link(Link<T> * PrevPoint = nullptr,Link<T> *nextPoint = nullptr){
-        prev = PrevPoint;
-        next = nextPoint;
-    }
-};
+
 
 template <class T>
 class DoubleLinkList:public _List<T>{
 private:
-    Link<T> *head;
-    Link<T> *tail;
+    dLink<T> *head;
+    dLink<T> *tail;
 public:
-    Link<T> *getPos(const int i);
+    dLink<T> *getPos(const int i);
     DoubleLinkList(){
-        head = new Link<T>();
-        tail = new Link<T>();
+        head = new dLink<T>();
+        tail = new dLink<T>();
 
         head->next = tail;
         tail->prev = head;
@@ -49,14 +33,17 @@ public:
 };
 
 template <class T>
-Link<T>* DoubleLinkList<T>::getPos(const int i) {
+dLink<T>* DoubleLinkList<T>::getPos(const int i) {
+
     //获取指定节点的指针 - 通过遍历法
     int count =0;
     if(i==-1)
         return head;
-    Link<T> *p = head->next;
+    dLink<T> *p = head->next;
+
     while(p!=nullptr && count<i)
     {
+        std::cout<<"count:"<<count<<"\n";
         p = p->next;
         count++;
     }
@@ -65,15 +52,15 @@ Link<T>* DoubleLinkList<T>::getPos(const int i) {
 
 template <class T>
 bool DoubleLinkList<T>::_Insert(const int index, const T value) {
-    Link<T> *p,*q;
+    dLink<T> *p,*q;
     if((p=getPos(index-1))== nullptr){
         std::cout<<"insert Link fail\n";
         return false;
     }
 
-    q = new Link<T>();
+    q = new dLink<T>();
     q->next = p;
-    q->prev = p->prev->next;
+    q->prev = p->prev;
     p->prev->next = q;
     p->prev = q;
     q->data = value;
@@ -83,24 +70,25 @@ bool DoubleLinkList<T>::_Insert(const int index, const T value) {
 template <class T>
 bool DoubleLinkList<T>::_Delete(const int pos) {
     //寻找节点
-    Link<T>*p,*LinkPoint;
+    dLink<T>*p,*LinkPoint;
     LinkPoint= getPos(pos-1);
+
     if(LinkPoint== nullptr
        || LinkPoint == head
        || LinkPoint == tail)
         return false;
-
+    //printf("Link data：%d\n",LinkPoint->data);
     //已找到该节点 - 开始执行删除操作
     LinkPoint->prev->next = LinkPoint->next;
     LinkPoint->next->prev = LinkPoint->prev;
 
+
     //置空指针
     LinkPoint->next = nullptr;
     LinkPoint->prev = nullptr;
-    LinkPoint= nullptr;
-
     //释放节点
     delete LinkPoint;
+    LinkPoint= nullptr;
     return true;
 }
 
@@ -108,7 +96,7 @@ bool DoubleLinkList<T>::_Delete(const int pos) {
 
 template <class T>
 bool DoubleLinkList<T>::_GetValue(const int p, T &value) {
-    Link<T>* LinkPoint = getPos(p-1);
+    dLink<T>* LinkPoint = getPos(p-1);
     if(LinkPoint== nullptr
        || LinkPoint == head
        || LinkPoint == tail)

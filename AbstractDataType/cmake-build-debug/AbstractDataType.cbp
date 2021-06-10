@@ -80,25 +80,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/ADT.hpp">
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/Abstract_Data_Type.hpp">
 			<Option target="AbstractDataType"/>
 		</Unit>
 		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/Algorithm_Introduction.hpp">
 			<Option target="AbstractDataType"/>
 		</Unit>
-		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/Array_Based_Stack.hpp">
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/List_DoubleLinked.hpp">
 			<Option target="AbstractDataType"/>
 		</Unit>
-		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/DoubleLinked_List.hpp">
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/List_Sequence.hpp">
 			<Option target="AbstractDataType"/>
 		</Unit>
-		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/Linear_TableTemplate.h">
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/List_SinglyLinked.hpp">
 			<Option target="AbstractDataType"/>
 		</Unit>
-		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/Sequence_Table.hpp">
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/Stack_Array_Based.hpp">
 			<Option target="AbstractDataType"/>
 		</Unit>
-		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/SinglyLinked_List.hpp">
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/Stack_Link_Based.hpp">
 			<Option target="AbstractDataType"/>
 		</Unit>
 		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/main.cpp">

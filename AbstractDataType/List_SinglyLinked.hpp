@@ -7,22 +7,6 @@
 #include "Template_LinearTable.h"
 
 #include <iostream>
-//节点
-template <class T>
-class Link{
-public:
-    T data;
-    Link<T> * next;
-    Link(const T info, Link<T>* nextPoint = nullptr){
-        data = info;
-        next = nextPoint;
-    }
-    Link(Link<T>* nextPoint)
-    {
-        next = nextPoint;
-    }
-};
-
 
 //单链表定义  继承至线性表模板
 template <class T>

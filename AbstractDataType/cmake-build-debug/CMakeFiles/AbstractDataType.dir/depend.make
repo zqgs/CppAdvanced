@@ -4,6 +4,8 @@
 CMakeFiles/AbstractDataType.dir/main.cpp.obj: ../Algorithm_Introduction.hpp
 CMakeFiles/AbstractDataType.dir/main.cpp.obj: ../List_DoubleLinked.hpp
 CMakeFiles/AbstractDataType.dir/main.cpp.obj: ../List_Sequence.hpp
+CMakeFiles/AbstractDataType.dir/main.cpp.obj: ../Stack_Array_Based.hpp
+CMakeFiles/AbstractDataType.dir/main.cpp.obj: ../Stack_Link_Based.hpp
 CMakeFiles/AbstractDataType.dir/main.cpp.obj: ../Template_LinearTable.h
 CMakeFiles/AbstractDataType.dir/main.cpp.obj: ../main.cpp
 
