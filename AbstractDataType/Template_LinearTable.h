@@ -71,4 +71,7 @@ public:
 };
 
 
+
+
+
 #endif //ABSTRACTDATATYPE_LINEAR_TABLETEMPLATE_H

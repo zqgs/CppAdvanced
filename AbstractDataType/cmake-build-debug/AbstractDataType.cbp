@@ -101,6 +101,12 @@
 		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/Stack_Link_Based.hpp">
 			<Option target="AbstractDataType"/>
 		</Unit>
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/Tree_Binary_Expression.hpp">
+			<Option target="AbstractDataType"/>
+		</Unit>
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/Tree_Binary_Search.hpp">
+			<Option target="AbstractDataType"/>
+		</Unit>
 		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/main.cpp">
 			<Option target="AbstractDataType"/>
 		</Unit>

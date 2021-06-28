@@ -10,4 +10,4 @@ add_executable(AbstractDataType main.cpp
         List_Sequence.hpp
         List_SinglyLinked.hpp
         Stack_Array_Based.hpp
-        Stack_Link_Based.hpp)
+        Stack_Link_Based.hpp Tree_Binary_Expression.hpp Tree_Binary_Search.hpp)
