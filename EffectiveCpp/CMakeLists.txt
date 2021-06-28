@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.17)
+project(EffectiveCpp)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(EffectiveCpp main.cpp Clause01_ViewCpp_As_a_Feaderation_of_Languages.hpp Clause02_Prefer_consts_enums_inline_to_define.hpp)

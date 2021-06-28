@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause01_ViewCpp_As_a_Feaderation_of_Languages.hpp
+
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause02_Prefer_consts_enums_inline_to_define.hpp
+string
+-
+
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/main.cpp
+iostream
+-
+Clause01_ViewCpp_As_a_Feaderation_of_Languages.hpp
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause01_ViewCpp_As_a_Feaderation_of_Languages.hpp
+Clause02_Prefer_consts_enums_inline_to_define.hpp
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause02_Prefer_consts_enums_inline_to_define.hpp
+
