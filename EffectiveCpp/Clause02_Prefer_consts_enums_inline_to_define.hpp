@@ -36,10 +36,34 @@ private:
 const int GamePlayer::Numturns;//由于声明时已经获得初值，定义时无须再设初值
 
 /*无法利用#define来创建一个class专属常量，#define并不重视作用域。一旦宏被定义，它将再之后的编译过程都有效(除非某处被#undef)
- *
  */
 
+/*
+ * the enum hack补偿:一个属于枚举类型的数值可充当ints来使用（模板元编程技术的基础应用）
+ */
+class GamePlayerEnum{
+private:
+    enum{NumTurns = 5};//enum行为像#define而不是const
+    int scores[NumTurns];
+};
 
+/*
+ * #define误用:宏看起来像函数，但不会产生函数调用带来的而外开销，用模板代替带参函数宏
+*/
+//误用
+#define CALL_WITH_MAX(a,b) f((a)>(b)?(a):(b))//无论何时写出这类宏，必须为宏中所有实参带上小括号
 
+//正确
+template <typename T>
+inline void callWithMax(const T&a,const T&b)
+{
+    f(a > b ? a : b);
+}
+
+/*
+ *有了consts、enums和inlines我们对预处理器(特别是#define)的需求降低了，但仍需要预处理器来控制编译。但可以减少对预处理器的使用
+ * 1.对于单纯的常量，最好以const对象或enums替换#defines
+ * 2.对于形似函数的宏，最好改用inline函数替换#defines
+ */
 
 #endif //EFFECTIVECPP_CLAUSE02_PREFER_CONSTS_ENUMS_INLINE_TO_DEFINE_HPP
