@@ -9,7 +9,7 @@
 //条款01 视C++为一个语言联邦
 /*C++主要分为四个部分:
  * 1.C.C++仍然是以C为基础。区块（blocks）、语句（statements）、预处理器（preprocessor）、内置数据类型（built-in data type）、
- * 数组（array）、指针（point）等都是来自于C。许多时候C++对问题的解法不过就是较高级的C解法，当以C++内的C成分工作时搞笑编程守则
+ * 数组（array）、指针（point）等都是来自于C。许多时候C++对问题的解法不过就是较高级的C解法，当以C++内的C成分工作时高效编程守则
  * 映射出C语言的局限:没有模板（templates）、没有异常（exceptions）、没有重载（overloading）等等
  *
  *

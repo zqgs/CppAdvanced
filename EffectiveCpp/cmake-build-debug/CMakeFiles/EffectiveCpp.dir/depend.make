@@ -3,5 +3,6 @@
 
 CMakeFiles/EffectiveCpp.dir/main.cpp.obj: ../Clause01_ViewCpp_As_a_Feaderation_of_Languages.hpp
 CMakeFiles/EffectiveCpp.dir/main.cpp.obj: ../Clause02_Prefer_consts_enums_inline_to_define.hpp
+CMakeFiles/EffectiveCpp.dir/main.cpp.obj: ../Clause03_Use_Const_Whenever_possible.hpp
 CMakeFiles/EffectiveCpp.dir/main.cpp.obj: ../main.cpp
 
