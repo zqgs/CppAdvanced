@@ -92,6 +92,12 @@
 		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause04_Before_Used_Object_MaksSure_Is_Initialized.hpp">
 			<Option target="EffectiveCpp"/>
 		</Unit>
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause05_Know_Functions_C++_Silently_Writes_And_Calls.hpp">
+			<Option target="EffectiveCpp"/>
+		</Unit>
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause06_Don&apos;t_Use_Function_of_Explicitly_Disallow.hpp">
+			<Option target="EffectiveCpp"/>
+		</Unit>
 		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/main.cpp">
 			<Option target="EffectiveCpp"/>
 		</Unit>

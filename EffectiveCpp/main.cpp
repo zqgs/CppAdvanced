@@ -5,14 +5,14 @@
 
 #include "Clause03_Use_Const_Whenever_possible.hpp"
 
-
+#include "Clause06_Don't_Use_Function_of_Explicitly_Disallow.hpp"
 
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
-    const Success_TextBlock a("-Hello, World!");
-    print(a);
+    //const Success_TextBlock a("-Hello, World!");
+    //print(a);
 
     return 0;
 }
