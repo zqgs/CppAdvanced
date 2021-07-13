@@ -24,6 +24,12 @@ string.h
 
 D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause06_Don't_Use_Function_of_Explicitly_Disallow.hpp
 
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause07_Declare_Destructor_Virtual_In_BaseClass.hpp
+iostream
+-
+string.h
+-
+
 D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/main.cpp
 iostream
 -
@@ -35,4 +41,6 @@ Clause03_Use_Const_Whenever_possible.hpp
 D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause03_Use_Const_Whenever_possible.hpp
 Clause06_Don't_Use_Function_of_Explicitly_Disallow.hpp
 D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause06_Don't_Use_Function_of_Explicitly_Disallow.hpp
+Clause07_Declare_Destructor_Virtual_In_BaseClass.hpp
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause07_Declare_Destructor_Virtual_In_BaseClass.hpp
 

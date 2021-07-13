@@ -5,5 +5,6 @@ CMakeFiles/EffectiveCpp.dir/main.cpp.obj: ../Clause01_ViewCpp_As_a_Feaderation_o
 CMakeFiles/EffectiveCpp.dir/main.cpp.obj: ../Clause02_Prefer_consts_enums_inline_to_define.hpp
 CMakeFiles/EffectiveCpp.dir/main.cpp.obj: ../Clause03_Use_Const_Whenever_possible.hpp
 CMakeFiles/EffectiveCpp.dir/main.cpp.obj: ../Clause06_Don't_Use_Function_of_Explicitly_Disallow.hpp
+CMakeFiles/EffectiveCpp.dir/main.cpp.obj: ../Clause07_Declare_Destructor_Virtual_In_BaseClass.hpp
 CMakeFiles/EffectiveCpp.dir/main.cpp.obj: ../main.cpp
 

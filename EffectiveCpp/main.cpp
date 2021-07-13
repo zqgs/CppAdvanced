@@ -7,6 +7,7 @@
 
 #include "Clause06_Don't_Use_Function_of_Explicitly_Disallow.hpp"
 
+#include "Clause07_Declare_Destructor_Virtual_In_BaseClass.hpp"
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
@@ -14,5 +15,6 @@ int main() {
     //const Success_TextBlock a("-Hello, World!");
     //print(a);
 
+    factory();
     return 0;
 }
