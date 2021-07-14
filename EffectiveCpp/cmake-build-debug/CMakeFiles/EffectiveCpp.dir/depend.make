@@ -7,5 +7,6 @@ CMakeFiles/EffectiveCpp.dir/main.cpp.obj: ../Clause03_Use_Const_Whenever_possibl
 CMakeFiles/EffectiveCpp.dir/main.cpp.obj: ../Clause06_Don't_Use_Function_of_Explicitly_Disallow.hpp
 CMakeFiles/EffectiveCpp.dir/main.cpp.obj: ../Clause07_Declare_Destructor_Virtual_In_BaseClass.hpp
 CMakeFiles/EffectiveCpp.dir/main.cpp.obj: ../Clause09_Never_Call_Virtual_During_Construct_Or_Cestruct.hpp
+CMakeFiles/EffectiveCpp.dir/main.cpp.obj: ../Clause10_Have_Operators_Return_Ref_To_p(this).hpp
 CMakeFiles/EffectiveCpp.dir/main.cpp.obj: ../main.cpp
 

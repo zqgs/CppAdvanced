@@ -10,6 +10,8 @@
 #include "Clause07_Declare_Destructor_Virtual_In_BaseClass.hpp"
 
 #include "Clause09_Never_Call_Virtual_During_Construct_Or_Cestruct.hpp"
+
+#include "Clause10_Have_Operators_Return_Ref_To_p(this).hpp"
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
@@ -20,6 +22,8 @@ int main() {
 
     //ErrCallTransaction();
 
-    ErrCallTransactionExp();
+    //ErrCallTransactionExp();
+
+    Call_Clause10_Widget();
     return 0;
 }
