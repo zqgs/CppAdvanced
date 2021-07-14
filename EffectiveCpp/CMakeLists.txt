@@ -9,4 +9,7 @@ add_executable(EffectiveCpp
         Clause02_Prefer_consts_enums_inline_to_define.hpp
         Clause03_Use_Const_Whenever_possible.hpp
         Clause04_Before_Used_Object_MaksSure_Is_Initialized.hpp
-        Clause05_Know_Functions_C++_Silently_Writes_And_Calls.hpp Clause06_Don't_Use_Function_of_Explicitly_Disallow.hpp)
+        Clause05_Know_Functions_C++_Silently_Writes_And_Calls.hpp
+        Clause06_Don't_Use_Function_of_Explicitly_Disallow.hpp
+        Clause08_Prevent_Exception_Leave_Destructors.hpp
+        Clause09_Never_Call_Virtual_During_Construct_Or_Cestruct.hpp)

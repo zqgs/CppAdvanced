@@ -9,12 +9,17 @@
 
 #include "Clause07_Declare_Destructor_Virtual_In_BaseClass.hpp"
 
+#include "Clause09_Never_Call_Virtual_During_Construct_Or_Cestruct.hpp"
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
     //const Success_TextBlock a("-Hello, World!");
     //print(a);
 
-    factory();
+    //factory();
+
+    //ErrCallTransaction();
+
+    ErrCallTransactionExp();
     return 0;
 }

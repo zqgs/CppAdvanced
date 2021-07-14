@@ -30,6 +30,12 @@ iostream
 string.h
 -
 
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause09_Never_Call_Virtual_During_Construct_Or_Cestruct.hpp
+iostream
+-
+string
+-
+
 D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/main.cpp
 iostream
 -
@@ -43,4 +49,6 @@ Clause06_Don't_Use_Function_of_Explicitly_Disallow.hpp
 D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause06_Don't_Use_Function_of_Explicitly_Disallow.hpp
 Clause07_Declare_Destructor_Virtual_In_BaseClass.hpp
 D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause07_Declare_Destructor_Virtual_In_BaseClass.hpp
+Clause09_Never_Call_Virtual_During_Construct_Or_Cestruct.hpp
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause09_Never_Call_Virtual_During_Construct_Or_Cestruct.hpp
 
