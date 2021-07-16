@@ -3,10 +3,9 @@
 
 CMakeFiles/EffectiveCpp.dir/main.cpp.obj: ../Clause01_ViewCpp_As_a_Feaderation_of_Languages.hpp
 CMakeFiles/EffectiveCpp.dir/main.cpp.obj: ../Clause02_Prefer_consts_enums_inline_to_define.hpp
-CMakeFiles/EffectiveCpp.dir/main.cpp.obj: ../Clause03_Use_Const_Whenever_possible.hpp
 CMakeFiles/EffectiveCpp.dir/main.cpp.obj: ../Clause06_Don't_Use_Function_of_Explicitly_Disallow.hpp
 CMakeFiles/EffectiveCpp.dir/main.cpp.obj: ../Clause07_Declare_Destructor_Virtual_In_BaseClass.hpp
-CMakeFiles/EffectiveCpp.dir/main.cpp.obj: ../Clause09_Never_Call_Virtual_During_Construct_Or_Cestruct.hpp
 CMakeFiles/EffectiveCpp.dir/main.cpp.obj: ../Clause10_Have_Operators_Return_Ref_To_p(this).hpp
+CMakeFiles/EffectiveCpp.dir/main.cpp.obj: ../Clause12_Copy_All_Parts_Of_An_Object.hpp
 CMakeFiles/EffectiveCpp.dir/main.cpp.obj: ../main.cpp
 
