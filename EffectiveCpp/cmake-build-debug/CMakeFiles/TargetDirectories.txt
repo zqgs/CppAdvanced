@@ -1,3 +1,3 @@
-D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/CMakeFiles/EffectiveCpp.dir
-D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/CMakeFiles/EffectiveCpp.dir

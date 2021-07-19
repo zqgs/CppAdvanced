@@ -6,49 +6,49 @@
 
 #IncludeRegexTransform: 
 
-D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause01_ViewCpp_As_a_Feaderation_of_Languages.hpp
+/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause01_ViewCpp_As_a_Feaderation_of_Languages.hpp
 
-D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause02_Prefer_consts_enums_inline_to_define.hpp
+/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause02_Prefer_consts_enums_inline_to_define.hpp
 string
 -
 
-D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause06_Don't_Use_Function_of_Explicitly_Disallow.hpp
+/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause06_Don't_Use_Function_of_Explicitly_Disallow.hpp
 
-D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause07_Declare_Destructor_Virtual_In_BaseClass.hpp
+/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause07_Declare_Destructor_Virtual_In_BaseClass.hpp
 iostream
 -
 string.h
 -
 
-D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause10_Have_Operators_Return_Ref_To_p(this).hpp
+/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause10_Have_Operators_Return_Ref_To_p(this).hpp
 iostream
 -
 
-D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause12_Copy_All_Parts_Of_An_Object.hpp
+/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause12_Copy_All_Parts_Of_An_Object.hpp
 iostream
 -
 
-D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause15_Provide_Access_To_Raw_Res_In_RAIIClasses.hpp
+/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause15_Provide_Access_To_Raw_Res_In_RAIIClasses.hpp
 memory
 -
 iostream
 -
 
-D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/main.cpp
+/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/main.cpp
 iostream
 -
 Clause01_ViewCpp_As_a_Feaderation_of_Languages.hpp
-D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause01_ViewCpp_As_a_Feaderation_of_Languages.hpp
+/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause01_ViewCpp_As_a_Feaderation_of_Languages.hpp
 Clause02_Prefer_consts_enums_inline_to_define.hpp
-D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause02_Prefer_consts_enums_inline_to_define.hpp
+/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause02_Prefer_consts_enums_inline_to_define.hpp
 Clause06_Don't_Use_Function_of_Explicitly_Disallow.hpp
-D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause06_Don't_Use_Function_of_Explicitly_Disallow.hpp
+/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause06_Don't_Use_Function_of_Explicitly_Disallow.hpp
 Clause07_Declare_Destructor_Virtual_In_BaseClass.hpp
-D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause07_Declare_Destructor_Virtual_In_BaseClass.hpp
+/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause07_Declare_Destructor_Virtual_In_BaseClass.hpp
 Clause10_Have_Operators_Return_Ref_To_p(this).hpp
-D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause10_Have_Operators_Return_Ref_To_p(this).hpp
+/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause10_Have_Operators_Return_Ref_To_p(this).hpp
 Clause12_Copy_All_Parts_Of_An_Object.hpp
-D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause12_Copy_All_Parts_Of_An_Object.hpp
+/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause12_Copy_All_Parts_Of_An_Object.hpp
 Clause15_Provide_Access_To_Raw_Res_In_RAIIClasses.hpp
-D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause15_Provide_Access_To_Raw_Res_In_RAIIClasses.hpp
+/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause15_Provide_Access_To_Raw_Res_In_RAIIClasses.hpp
 

@@ -8,109 +8,109 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/cmake-build-debug"/>
+				<Option working_dir="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="AbstractDataType">
-				<Option output="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/cmake-build-debug/AbstractDataType.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 AbstractDataType"/>
-					<CompileFile command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="AbstractDataType/fast">
-				<Option output="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/cmake-build-debug/AbstractDataType.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 AbstractDataType/fast"/>
-					<CompileFile command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/cmake-build-debug"/>
+				<Option working_dir="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AbstractDataType">
+				<Option output="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/cmake-build-debug/AbstractDataType" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 AbstractDataType"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AbstractDataType/fast">
+				<Option output="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/cmake-build-debug/AbstractDataType" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 AbstractDataType/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/Abstract_Data_Type.hpp">
+		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/Abstract_Data_Type.hpp">
 			<Option target="AbstractDataType"/>
 		</Unit>
-		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/Algorithm_Introduction.hpp">
+		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/Algorithm_Introduction.hpp">
 			<Option target="AbstractDataType"/>
 		</Unit>
-		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/List_DoubleLinked.hpp">
+		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/List_DoubleLinked.hpp">
 			<Option target="AbstractDataType"/>
 		</Unit>
-		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/List_Sequence.hpp">
+		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/List_Sequence.hpp">
 			<Option target="AbstractDataType"/>
 		</Unit>
-		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/List_SinglyLinked.hpp">
+		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/List_SinglyLinked.hpp">
 			<Option target="AbstractDataType"/>
 		</Unit>
-		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/Stack_Array_Based.hpp">
+		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/Stack_Array_Based.hpp">
 			<Option target="AbstractDataType"/>
 		</Unit>
-		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/Stack_Link_Based.hpp">
+		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/Stack_Link_Based.hpp">
 			<Option target="AbstractDataType"/>
 		</Unit>
-		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/Tree_Binary_Expression.hpp">
+		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/Tree_Binary_Expression.hpp">
 			<Option target="AbstractDataType"/>
 		</Unit>
-		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/Tree_Binary_Search.hpp">
+		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/Tree_Binary_Search.hpp">
 			<Option target="AbstractDataType"/>
 		</Unit>
-		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/main.cpp">
+		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/main.cpp">
 			<Option target="AbstractDataType"/>
 		</Unit>
-		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/AbstractDataType/CMakeLists.txt">
+		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/AbstractDataType/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -1,4 +1,4 @@
-"D:\Program Files\JetBrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\CommonCode\CppAdvanced\GitHub\CppAdvanced\EffectiveCpp
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp
 -- Configuring done
 -- Generating done
--- Build files have been written to: D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/cmake-build-debug
+-- Build files have been written to: /Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/cmake-build-debug
