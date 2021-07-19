@@ -125,6 +125,9 @@
 		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause16_Same_From_Of_New_And_Delete.hpp">
 			<Option target="EffectiveCpp"/>
 		</Unit>
+		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause17_Newed_Object_In_Smart_Pointers.hpp">
+			<Option target="EffectiveCpp"/>
+		</Unit>
 		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/main.cpp">
 			<Option target="EffectiveCpp"/>
 		</Unit>
