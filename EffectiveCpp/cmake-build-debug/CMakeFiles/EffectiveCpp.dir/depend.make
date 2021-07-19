@@ -7,5 +7,6 @@ CMakeFiles/EffectiveCpp.dir/main.cpp.obj: ../Clause06_Don't_Use_Function_of_Expl
 CMakeFiles/EffectiveCpp.dir/main.cpp.obj: ../Clause07_Declare_Destructor_Virtual_In_BaseClass.hpp
 CMakeFiles/EffectiveCpp.dir/main.cpp.obj: ../Clause10_Have_Operators_Return_Ref_To_p(this).hpp
 CMakeFiles/EffectiveCpp.dir/main.cpp.obj: ../Clause12_Copy_All_Parts_Of_An_Object.hpp
+CMakeFiles/EffectiveCpp.dir/main.cpp.obj: ../Clause15_Provide_Access_To_Raw_Res_In_RAIIClasses.hpp
 CMakeFiles/EffectiveCpp.dir/main.cpp.obj: ../main.cpp
 

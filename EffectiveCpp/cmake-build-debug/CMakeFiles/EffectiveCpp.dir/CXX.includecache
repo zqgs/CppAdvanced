@@ -28,6 +28,12 @@ D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause12_Copy_All_Part
 iostream
 -
 
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause15_Provide_Access_To_Raw_Res_In_RAIIClasses.hpp
+memory
+-
+iostream
+-
+
 D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/main.cpp
 iostream
 -
@@ -43,4 +49,6 @@ Clause10_Have_Operators_Return_Ref_To_p(this).hpp
 D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause10_Have_Operators_Return_Ref_To_p(this).hpp
 Clause12_Copy_All_Parts_Of_An_Object.hpp
 D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause12_Copy_All_Parts_Of_An_Object.hpp
+Clause15_Provide_Access_To_Raw_Res_In_RAIIClasses.hpp
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause15_Provide_Access_To_Raw_Res_In_RAIIClasses.hpp
 

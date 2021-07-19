@@ -12,4 +12,4 @@ add_executable(EffectiveCpp
         Clause05_Know_Functions_C++_Silently_Writes_And_Calls.hpp
         Clause06_Don't_Use_Function_of_Explicitly_Disallow.hpp
         Clause08_Prevent_Exception_Leave_Destructors.hpp
-        Clause09_Never_Call_Virtual_During_Construct_Or_Cestruct.hpp "Clause10_Have_Operators_Return_Ref_To_p(this).hpp" Clause11_Handle_Assign_To_Self_In_Operator.hpp Clause12_Copy_All_Parts_Of_An_Object.hpp Clause13_Use_Object_To_Manage_Resources.hpp Clause14_Carefully_About_Copying_In_Manag_Class.hpp)
+        Clause09_Never_Call_Virtual_During_Construct_Or_Cestruct.hpp "Clause10_Have_Operators_Return_Ref_To_p(this).hpp" Clause11_Handle_Assign_To_Self_In_Operator.hpp Clause12_Copy_All_Parts_Of_An_Object.hpp Clause13_Use_Object_To_Manage_Resources.hpp Clause14_Carefully_About_Copying_In_Manag_Class.hpp Clause15_Provide_Access_To_Raw_Res_In_RAIIClasses.hpp)

@@ -14,6 +14,8 @@
 #include "Clause10_Have_Operators_Return_Ref_To_p(this).hpp"
 
 #include "Clause12_Copy_All_Parts_Of_An_Object.hpp"
+
+#include "Clause15_Provide_Access_To_Raw_Res_In_RAIIClasses.hpp"
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
@@ -27,5 +29,7 @@ int main() {
     //ErrCallTransactionExp();
 
     //Call_Clause10_Widget();
+
+    Call_C14_Investment();
     return 0;
 }
