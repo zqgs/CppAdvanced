@@ -8,130 +8,130 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/cmake-build-debug"/>
+				<Option working_dir="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="EffectiveCpp">
-				<Option output="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/EffectiveCpp" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/cmake-build-debug"/>
+				<Option output="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/EffectiveCpp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 EffectiveCpp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 EffectiveCpp"/>
+					<CompileFile command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="EffectiveCpp/fast">
-				<Option output="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/EffectiveCpp" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/cmake-build-debug"/>
+				<Option output="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/EffectiveCpp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/CommonCode/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 EffectiveCpp/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 EffectiveCpp/fast"/>
+					<CompileFile command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CommonCode/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause01_ViewCpp_As_a_Feaderation_of_Languages.hpp">
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause01_ViewCpp_As_a_Feaderation_of_Languages.hpp">
 			<Option target="EffectiveCpp"/>
 		</Unit>
-		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause02_Prefer_consts_enums_inline_to_define.hpp">
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause02_Prefer_consts_enums_inline_to_define.hpp">
 			<Option target="EffectiveCpp"/>
 		</Unit>
-		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause03_Use_Const_Whenever_possible.hpp">
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause03_Use_Const_Whenever_possible.hpp">
 			<Option target="EffectiveCpp"/>
 		</Unit>
-		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause04_Before_Used_Object_MaksSure_Is_Initialized.hpp">
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause04_Before_Used_Object_MaksSure_Is_Initialized.hpp">
 			<Option target="EffectiveCpp"/>
 		</Unit>
-		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause05_Know_Functions_C++_Silently_Writes_And_Calls.hpp">
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause05_Know_Functions_C++_Silently_Writes_And_Calls.hpp">
 			<Option target="EffectiveCpp"/>
 		</Unit>
-		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause06_Don&apos;t_Use_Function_of_Explicitly_Disallow.hpp">
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause06_Don&apos;t_Use_Function_of_Explicitly_Disallow.hpp">
 			<Option target="EffectiveCpp"/>
 		</Unit>
-		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause08_Prevent_Exception_Leave_Destructors.hpp">
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause08_Prevent_Exception_Leave_Destructors.hpp">
 			<Option target="EffectiveCpp"/>
 		</Unit>
-		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause09_Never_Call_Virtual_During_Construct_Or_Cestruct.hpp">
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause09_Never_Call_Virtual_During_Construct_Or_Cestruct.hpp">
 			<Option target="EffectiveCpp"/>
 		</Unit>
-		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause10_Have_Operators_Return_Ref_To_p(this).hpp">
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause10_Have_Operators_Return_Ref_To_p(this).hpp">
 			<Option target="EffectiveCpp"/>
 		</Unit>
-		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause11_Handle_Assign_To_Self_In_Operator.hpp">
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause11_Handle_Assign_To_Self_In_Operator.hpp">
 			<Option target="EffectiveCpp"/>
 		</Unit>
-		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause12_Copy_All_Parts_Of_An_Object.hpp">
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause12_Copy_All_Parts_Of_An_Object.hpp">
 			<Option target="EffectiveCpp"/>
 		</Unit>
-		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause13_Use_Object_To_Manage_Resources.hpp">
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause13_Use_Object_To_Manage_Resources.hpp">
 			<Option target="EffectiveCpp"/>
 		</Unit>
-		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause14_Carefully_About_Copying_In_Manag_Class.hpp">
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause14_Carefully_About_Copying_In_Manag_Class.hpp">
 			<Option target="EffectiveCpp"/>
 		</Unit>
-		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause15_Provide_Access_To_Raw_Res_In_RAIIClasses.hpp">
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause15_Provide_Access_To_Raw_Res_In_RAIIClasses.hpp">
 			<Option target="EffectiveCpp"/>
 		</Unit>
-		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause16_Same_From_Of_New_And_Delete.hpp">
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause16_Same_From_Of_New_And_Delete.hpp">
 			<Option target="EffectiveCpp"/>
 		</Unit>
-		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/Clause17_Newed_Object_In_Smart_Pointers.hpp">
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause17_Newed_Object_In_Smart_Pointers.hpp">
 			<Option target="EffectiveCpp"/>
 		</Unit>
-		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/main.cpp">
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/main.cpp">
 			<Option target="EffectiveCpp"/>
 		</Unit>
-		<Unit filename="/Users/zengqingguo/Desktop/gitHub/CppAdvanced/EffectiveCpp/CMakeLists.txt">
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
