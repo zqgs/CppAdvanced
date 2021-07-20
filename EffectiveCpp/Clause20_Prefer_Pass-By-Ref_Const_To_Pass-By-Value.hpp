@@ -1,0 +1,14 @@
+//
+// Created by Sea on 2021/7/20.
+//
+
+#ifndef EFFECTIVECPP_CLAUSE20_PREFER_PASS_BY_REF_CONST_TO_PASS_BY_VALUE_HPP
+#define EFFECTIVECPP_CLAUSE20_PREFER_PASS_BY_REF_CONST_TO_PASS_BY_VALUE_HPP
+
+//条款20:宁以pass-by-reference-const(const引用传递)替换 pass-by-value(值传递)
+
+
+
+
+
+#endif //EFFECTIVECPP_CLAUSE20_PREFER_PASS_BY_REF_CONST_TO_PASS_BY_VALUE_HPP

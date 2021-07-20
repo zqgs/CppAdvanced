@@ -131,7 +131,10 @@
 		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause18_Make_Interfaces_To_Use_Right.hpp">
 			<Option target="EffectiveCpp"/>
 		</Unit>
-		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause_Treat_Class_Design_As_Type_Design.hpp">
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause19_Treat_Class_Design_As_Type_Design.hpp">
+			<Option target="EffectiveCpp"/>
+		</Unit>
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause20_Prefer_Pass-By-Ref_Const_To_Pass-By-Value.hpp">
 			<Option target="EffectiveCpp"/>
 		</Unit>
 		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/main.cpp">
