@@ -137,6 +137,9 @@
 		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause20_Prefer_Pass-By-Ref_Const_To_Pass-By-Value.hpp">
 			<Option target="EffectiveCpp"/>
 		</Unit>
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause21_Don&apos;t_Try_Return_a_ReF_When_Must_Return_Obj.hpp">
+			<Option target="EffectiveCpp"/>
+		</Unit>
 		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/main.cpp">
 			<Option target="EffectiveCpp"/>
 		</Unit>
