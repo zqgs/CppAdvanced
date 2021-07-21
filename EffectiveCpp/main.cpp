@@ -17,7 +17,9 @@
 
 //#include "Clause15_Provide_Access_To_Raw_Res_In_RAIIClasses.hpp"
 
-#include "Clause18_Make_Interfaces_To_Use_Right.hpp"
+//#include "Clause18_Make_Interfaces_To_Use_Right.hpp"
+
+#include "Clause20_Prefer_Pass-By-Ref_Const_To_Pass-By-Value.hpp"
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
@@ -34,6 +36,11 @@ int main() {
 
     //Call_C14_Investment();
 
-    Cl18_Test04();
+    //Cl18_Test04();
+
+    //Cl20_test01();
+    //Cl20_test02();
+    //Cl20_test03();
+    Cl20_test04();
     return 0;
 }
