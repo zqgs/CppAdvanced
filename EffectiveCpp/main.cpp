@@ -21,7 +21,9 @@
 
 //#include "Clause20_Prefer_Pass-By-Ref_Const_To_Pass-By-Value.hpp"
 
-#include "Clause21_Don't_Try_Return_a_ReF_When_Must_Return_Obj.hpp"
+//#include "Clause21_Don't_Try_Return_a_ReF_When_Must_Return_Obj.hpp"
+
+#include "Clause24_If all parameters need to be converted, please use the non-member function.hpp"
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
@@ -45,6 +47,9 @@ int main() {
     //Cl20_test03();
     //Cl20_test04();
 
-    Cl21_Test01();
+    //Cl21_Test01();
+
+    //Cl24_test01();
+    Cl24_test02();
     return 0;
 }
