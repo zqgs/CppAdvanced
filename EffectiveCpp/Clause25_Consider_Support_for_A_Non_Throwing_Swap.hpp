@@ -18,7 +18,7 @@
         b = temp;//temp复制到b
     }
 }*/
-//对某些类型而言:以指针指向一个对象，内含真正的数据。这种设计常见的表显形式未pimpl手法
+//对某些类型而言:以指针指向一个对象，内含真正的数据。这种设计常见的表现形式为pimpl手法
 class Cl25_WidgetImpl{
 private:
     int a,b,c;
@@ -107,7 +107,7 @@ private:
 //既然偏特化不通过，那么采取重载function template的方式呢？其实针对std的function template重载都是不行的
 /*namespace std{
     template <typename T>
-    //看似可行，其实不然。C++委员会禁止我们膨胀标准库中已经生命好的东西。
+    //看似可行，其实不然。C++委员会禁止我们膨胀标准库中已经声明好的东西。
     void swap(Cl25_WidgetExp2<T>& a,Cl25_WidgetExp2<T>& b){
         a.swap(b);
     }
