@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GB2312">
     <file url="file://$PROJECT_DIR$/Clause07_Declare_Destructor_Virtual_In_BaseClass.hpp" charset="GBK" />
     <file url="file://$PROJECT_DIR$/Clause18_Make_Interfaces_To_Use_Right.hpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Clause25_Consider_Support_for_A_Non_Throwing_Swap.hpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Clause26_Delay the appearance of the variable definition formula as long as possible.hpp" charset="GBK" />
     <file url="file://$PROJECT_DIR$/main.cpp" charset="GBK" />
     <file url="PROJECT" charset="GBK" />
   </component>

@@ -23,7 +23,9 @@
 
 //#include "Clause21_Don't_Try_Return_a_ReF_When_Must_Return_Obj.hpp"
 
-#include "Clause24_If all parameters need to be converted, please use the non-member function.hpp"
+//#include "Clause24_If all parameters need to be converted, please use the non-member function.hpp"
+
+#include "Clause26_Delay the appearance of the variable definition formula as long as possible.hpp"
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
@@ -50,6 +52,13 @@ int main() {
     //Cl21_Test01();
 
     //Cl24_test01();
-    Cl24_test02();
+    //Cl24_test02();
+
+    try {
+        Cl26_test01();
+    }
+    catch (std::exception &e) {
+        std::cout<<e.what()<<"\n";
+    }
     return 0;
 }
