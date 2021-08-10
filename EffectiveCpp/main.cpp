@@ -25,7 +25,9 @@
 
 //#include "Clause24_If all parameters need to be converted, please use the non-member function.hpp"
 
-#include "Clause26_Delay the appearance of the variable definition formula as long as possible.hpp"
+//#include "Clause26_Delay the appearance of the variable definition formula as long as possible.hpp"
+
+#include "Clause27_Minimize_Casting.hpp"
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
@@ -54,11 +56,15 @@ int main() {
     //Cl24_test01();
     //Cl24_test02();
 
-    try {
-        Cl26_test01();
-    }
-    catch (std::exception &e) {
-        std::cout<<e.what()<<"\n";
-    }
+//    try {
+//        Cl26_test01();
+//    }
+//    catch (std::exception &e) {
+//        std::cout<<e.what()<<"\n";
+//    }
+
+
+    //Cl27_test03();
+    Cl27_test05();
     return 0;
 }
