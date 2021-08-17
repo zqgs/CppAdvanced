@@ -27,7 +27,10 @@
 
 //#include "Clause26_Delay the appearance of the variable definition formula as long as possible.hpp"
 
-#include "Clause27_Minimize_Casting.hpp"
+//#include "Clause27_Minimize_Casting.hpp"
+
+#include "Clause28_Avoid_Return_Handles_to_Object_internals.hpp"
+
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
@@ -64,7 +67,10 @@ int main() {
 //    }
 
 
-    //Cl27_test03();
-    Cl27_test05();
+//    Cl27_test03();
+//    Cl27_test05();
+
+    Cl28_test01();
+
     return 0;
 }
