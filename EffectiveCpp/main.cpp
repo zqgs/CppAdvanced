@@ -31,7 +31,9 @@
 
 //#include "Clause28_Avoid_Return_Handles_to_Object_internals.hpp"
 
-#include "Clause29_Strice_For_Exception-safe_Code.hpp"
+//#include "Clause29_Strice_For_Exception-safe_Code.hpp"
+
+#include "Clause32_Make_Sure_public_inheritance_models_isA.hpp"
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
@@ -73,6 +75,8 @@ int main() {
 //    Cl27_test05();
 
 //    Cl28_test01();
-    Clause29_test01();
+//    Clause29_test01();
+
+     Cl32_test01();
     return 0;
 }
