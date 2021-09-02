@@ -33,7 +33,9 @@
 
 //#include "Clause29_Strice_For_Exception-safe_Code.hpp"
 
-#include "Clause32_Make_Sure_public_inheritance_models_isA.hpp"
+//#include "Clause32_Make_Sure_public_inheritance_models_isA.hpp"
+
+#include "Clause33_Avoid_hiding_inherited_Name.hpp"
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
@@ -77,6 +79,11 @@ int main() {
 //    Cl28_test01();
 //    Clause29_test01();
 
-     Cl32_test01();
+//     Cl32_test01();
+
+
+    //Cl33_test01();
+    //Cl33_test03();
+    Cl33_test04();
     return 0;
 }
