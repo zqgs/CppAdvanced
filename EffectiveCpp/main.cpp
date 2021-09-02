@@ -35,7 +35,9 @@
 
 //#include "Clause32_Make_Sure_public_inheritance_models_isA.hpp"
 
-#include "Clause33_Avoid_hiding_inherited_Name.hpp"
+//#include "Clause33_Avoid_hiding_inherited_Name.hpp"
+
+#include "Clause34_Distinguishing between interface inheritance and implementation inheritance.hpp"
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
@@ -84,6 +86,11 @@ int main() {
 
     //Cl33_test01();
     //Cl33_test03();
-    Cl33_test04();
+    //Cl33_test04();
+
+
+    //Cl34_test01();
+    //Cl34_test02();
+    Cl34_test03();
     return 0;
 }
