@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause36_Never_ReDefine_InHerited_non-virtual_Func.hpp
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause37_Never_Redefine_fun_inherited_default_Param_value.hpp
 iostream
 -
 
 D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/main.cpp
 iostream
 -
-Clause36_Never_ReDefine_InHerited_non-virtual_Func.hpp
-D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause36_Never_ReDefine_InHerited_non-virtual_Func.hpp
+Clause37_Never_Redefine_fun_inherited_default_Param_value.hpp
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause37_Never_Redefine_fun_inherited_default_Param_value.hpp
 

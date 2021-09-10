@@ -39,8 +39,9 @@
 
 //#include "Clause34_Distinguishing between interface inheritance and implementation inheritance.hpp"
 
-#include "Clause36_Never_ReDefine_InHerited_non-virtual_Func.hpp"
+//#include "Clause36_Never_ReDefine_InHerited_non-virtual_Func.hpp"
 
+#include "Clause37_Never_Redefine_fun_inherited_default_Param_value.hpp"
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
@@ -96,6 +97,9 @@ int main() {
     //Cl34_test03();
 
     //Cl36_test01();
-    Cl36_test02();
+    //Cl36_test02();
+
+    //Cl37_test01();
+    Cl37_test02();
     return 0;
 }
