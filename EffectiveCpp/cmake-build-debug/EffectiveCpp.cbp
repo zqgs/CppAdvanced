@@ -182,6 +182,9 @@
 		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause35_Consider_Alternatives_to_virtual_function.hpp">
 			<Option target="EffectiveCpp"/>
 		</Unit>
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause36_Never_ReDefine_InHerited_non-virtual_Func.hpp">
+			<Option target="EffectiveCpp"/>
+		</Unit>
 		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/main.cpp">
 			<Option target="EffectiveCpp"/>
 		</Unit>

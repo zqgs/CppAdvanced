@@ -6,15 +6,13 @@
 
 #IncludeRegexTransform: 
 
-D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause34_Distinguishing between interface inheritance and implementation inheritance.hpp
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause36_Never_ReDefine_InHerited_non-virtual_Func.hpp
 iostream
--
-string
 -
 
 D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/main.cpp
 iostream
 -
-Clause34_Distinguishing between interface inheritance and implementation inheritance.hpp
-D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause34_Distinguishing between interface inheritance and implementation inheritance.hpp
+Clause36_Never_ReDefine_InHerited_non-virtual_Func.hpp
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause36_Never_ReDefine_InHerited_non-virtual_Func.hpp
 

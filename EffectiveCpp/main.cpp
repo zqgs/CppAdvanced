@@ -37,7 +37,9 @@
 
 //#include "Clause33_Avoid_hiding_inherited_Name.hpp"
 
-#include "Clause34_Distinguishing between interface inheritance and implementation inheritance.hpp"
+//#include "Clause34_Distinguishing between interface inheritance and implementation inheritance.hpp"
+
+#include "Clause36_Never_ReDefine_InHerited_non-virtual_Func.hpp"
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
@@ -91,6 +93,9 @@ int main() {
 
     //Cl34_test01();
     //Cl34_test02();
-    Cl34_test03();
+    //Cl34_test03();
+
+    //Cl36_test01();
+    Cl36_test02();
     return 0;
 }
