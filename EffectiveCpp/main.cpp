@@ -43,7 +43,9 @@
 
 //#include "Clause37_Never_Redefine_fun_inherited_default_Param_value.hpp"
 
-#include "Clause38_Model_has-a_is_Implemented-in-terms-of_through_composition.hpp"
+//#include "Clause38_Model_has-a_is_Implemented-in-terms-of_through_composition.hpp"
+
+#include "Clause40_Use_Multiple_Inheritance_Judiciously.hpp"
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
@@ -104,6 +106,10 @@ int main() {
     //Cl37_test01();
     //Cl37_test02();
 
-    Cl38_test01();
+    //Cl38_test01();
+
+    //Cl40_test01();
+    //Cl40_test03();
+    Cl40_test04();
     return 0;
 }
