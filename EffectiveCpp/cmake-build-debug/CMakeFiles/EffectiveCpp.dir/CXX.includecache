@@ -6,15 +6,13 @@
 
 #IncludeRegexTransform: 
 
-D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause40_Use_Multiple_Inheritance_Judiciously.hpp
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause41_Understand_implicit_Interface_And_Compile-Time_Polymorphism.hpp
 iostream
--
-string
 -
 
 D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/main.cpp
 iostream
 -
-Clause40_Use_Multiple_Inheritance_Judiciously.hpp
-D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause40_Use_Multiple_Inheritance_Judiciously.hpp
+Clause41_Understand_implicit_Interface_And_Compile-Time_Polymorphism.hpp
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause41_Understand_implicit_Interface_And_Compile-Time_Polymorphism.hpp
 
