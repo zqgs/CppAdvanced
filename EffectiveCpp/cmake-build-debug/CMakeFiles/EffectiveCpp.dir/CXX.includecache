@@ -6,13 +6,15 @@
 
 #IncludeRegexTransform: 
 
-D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause41_Understand_implicit_Interface_And_Compile-Time_Polymorphism.hpp
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause43_Lerning_access_Name_In_templatized_base_class.hpp
+string
+-
 iostream
 -
 
 D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/main.cpp
 iostream
 -
-Clause41_Understand_implicit_Interface_And_Compile-Time_Polymorphism.hpp
-D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause41_Understand_implicit_Interface_And_Compile-Time_Polymorphism.hpp
+Clause43_Lerning_access_Name_In_templatized_base_class.hpp
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause43_Lerning_access_Name_In_templatized_base_class.hpp
 

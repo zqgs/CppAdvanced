@@ -47,7 +47,9 @@
 
 //#include "Clause40_Use_Multiple_Inheritance_Judiciously.hpp"
 
-#include "Clause41_Understand_implicit_Interface_And_Compile-Time_Polymorphism.hpp"
+//#include "Clause41_Understand_implicit_Interface_And_Compile-Time_Polymorphism.hpp"
+
+#include "Clause43_Lerning_access_Name_In_templatized_base_class.hpp"
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
@@ -115,6 +117,10 @@ int main() {
     //Cl40_test04();
 
     //Cl41_test01();
-    Cl41_test02();
+    //Cl41_test02();
+
+
+    //Cl43_Test01();
+    Cl43_Test02();
     return 0;
 }

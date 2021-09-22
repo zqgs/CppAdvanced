@@ -203,6 +203,9 @@
 		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause42_Understand_The_Two_Meanings_Of_Typename.hpp">
 			<Option target="EffectiveCpp"/>
 		</Unit>
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause43_Lerning_access_Name_In_templatized_base_class.hpp">
+			<Option target="EffectiveCpp"/>
+		</Unit>
 		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/main.cpp">
 			<Option target="EffectiveCpp"/>
 		</Unit>
