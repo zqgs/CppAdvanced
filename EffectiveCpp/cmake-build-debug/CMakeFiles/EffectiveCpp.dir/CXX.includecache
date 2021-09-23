@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause43_Lerning_access_Name_In_templatized_base_class.hpp
-string
--
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause44_Fator_Param-independent_code_out_of_template.hpp
 iostream
+-
+memory
 -
 
 D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/main.cpp
 iostream
 -
-Clause43_Lerning_access_Name_In_templatized_base_class.hpp
-D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause43_Lerning_access_Name_In_templatized_base_class.hpp
+Clause44_Fator_Param-independent_code_out_of_template.hpp
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause44_Fator_Param-independent_code_out_of_template.hpp
 

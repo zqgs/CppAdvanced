@@ -49,7 +49,9 @@
 
 //#include "Clause41_Understand_implicit_Interface_And_Compile-Time_Polymorphism.hpp"
 
-#include "Clause43_Lerning_access_Name_In_templatized_base_class.hpp"
+//#include "Clause43_Lerning_access_Name_In_templatized_base_class.hpp"
+
+#include "Clause44_Fator_Param-independent_code_out_of_template.hpp"
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
@@ -124,6 +126,9 @@ int main() {
     //Cl43_Test02();
     //Cl43_Test03();
     //Cl43_Test04();
-    Cl43_Test05();
+    //Cl43_Test05();
+    //Cl44_test01();
+    //Cl44_test02();
+    Cl44_test03();
     return 0;
 }
