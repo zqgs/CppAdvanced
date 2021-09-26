@@ -6,15 +6,13 @@
 
 #IncludeRegexTransform: 
 
-D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause44_Fator_Param-independent_code_out_of_template.hpp
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause45_Use_Member_Fun_template_to_Accept_all-compatible-types.hpp
 iostream
--
-memory
 -
 
 D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/main.cpp
 iostream
 -
-Clause44_Fator_Param-independent_code_out_of_template.hpp
-D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause44_Fator_Param-independent_code_out_of_template.hpp
+Clause45_Use_Member_Fun_template_to_Accept_all-compatible-types.hpp
+D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause45_Use_Member_Fun_template_to_Accept_all-compatible-types.hpp
 

@@ -51,7 +51,9 @@
 
 //#include "Clause43_Lerning_access_Name_In_templatized_base_class.hpp"
 
-#include "Clause44_Fator_Param-independent_code_out_of_template.hpp"
+//#include "Clause44_Fator_Param-independent_code_out_of_template.hpp"
+
+#include "Clause45_Use_Member_Fun_template_to_Accept_all-compatible-types.hpp"
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
@@ -129,6 +131,11 @@ int main() {
     //Cl43_Test05();
     //Cl44_test01();
     //Cl44_test02();
-    Cl44_test03();
+    //Cl44_test03();
+
+
+    //Cl45_test01();
+    //Cl45_test02();
+    Cl45_test03();
     return 0;
 }

@@ -209,6 +209,12 @@
 		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause44_Fator_Param-independent_code_out_of_template.hpp">
 			<Option target="EffectiveCpp"/>
 		</Unit>
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause45_Use_Member_Fun_template_to_Accept_all-compatible-types.hpp">
+			<Option target="EffectiveCpp"/>
+		</Unit>
+		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/Clause46_Define_non-member-function_inside_templates_when_type_conversion_are_desired.hpp">
+			<Option target="EffectiveCpp"/>
+		</Unit>
 		<Unit filename="D:/CommonCode/CppAdvanced/GitHub/CppAdvanced/EffectiveCpp/main.cpp">
 			<Option target="EffectiveCpp"/>
 		</Unit>
